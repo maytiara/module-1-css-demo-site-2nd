@@ -1,0 +1,406 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #d9dcd6;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.header {
+    padding: 20px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 999px;
+    opacity: 90%;
+    min-width: 200px;
+    height: fit-content;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 3rem;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 100;
+    padding-top: .5rem;
+    padding-left: 1rem;
+    padding-bottom: .5rem;
+    position: absolute;
+}
+
+.nav-menu ul {
+    gap: 30px;
+    padding: 0;
+    margin-left: 20px;
+    margin-right: -100px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    float: right;
+    position: relative;
+}
+
+.nav-menu li {
+    display: inline-block;
+    margin-bottom: -30px;
+}
+
+.nav-menu a {
+    color: #ffffff;
+    list-style: none;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 500;
+    width: 300px;
+    display: block;
+    padding-top: 15px;
+    margin-right: 20px;
+    font-size: 1rem;
+}
+
+.nav-menu a:hover {
+    color: #ffe600;
+}
+
+/*
+    display: inline-flex;
+    align-items:inherit;
+*/
+
+/*Hero Background image*/
+.hero {
+    width: 100vw;
+    height: 900px;
+
+    /*flexbox properties*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /*font properties*/
+    color: #000000;
+    text-align: center;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-image: url(../images/main-top-cover.jpg);
+    background-repeat: no-repeat;
+
+    /*bg-size: cover "let the img to wrap from left-right edge to edge*/
+    background-size: cover;
+    background-position: center center;
+}
+
+.hero-inner {
+    0;
+}
+
+.hero .btn {
+    display: block;
+    width: 200px;
+    margin: 50px;
+    padding: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid rgb(253, 239, 217);
+    border-radius: 2rem;
+    color: #000000;
+    background-color: rgb(255, 187, 0);
+}
+
+/*
+.float-left {
+    float: left;
+    margin-right: 25px;
+    position: relative;
+}
+*/
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+    position: relative;
+}
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+
+.seo {
+    margin-bottom: 20px;
+    padding: 50px;
+    border-style: solid;
+    border-width: 8px;
+    border-color: #d9dcd6;
+    height: 200px;
+    width: 960px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: #494949;
+    color: #ffffff;
+
+    /*flex-container*/
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    -ms-box-orient: horizontal;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -webkit-flex;
+
+    -webkit-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+}
+
+.orm {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 200px;
+    width: 960px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: #494949;
+    color: #ffffff;
+    border-style: solid;
+    border-width: 8px;
+    border-color: #d9dcd6;
+
+    /*flex-container*/
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    -ms-box-orient: horizontal;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -webkit-flex;
+
+    -webkit-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+}
+
+.smm {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 200px;
+    width: 960px;
+    font-family: font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: #494949;
+    color: #ffffff;
+    display: flex;
+    border-style: solid;
+    border-width: 8px;
+    border-color: #d9dcd6;
+
+    /*flex-container*/
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    -ms-box-orient: horizontal;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -webkit-flex;
+
+    -webkit-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+}
+
+.seo img {
+    max-height: 200px;
+    width: 300px;
+}
+
+.orm img {
+    max-height: 200px;
+    width: 275px;
+}
+
+.smm img {
+    max-height: 200px;
+    width: 460px;
+}
+
+.seo h2 {
+    width: 210px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    margin-right: 20px;
+    font-size: 36px;
+    flex-wrap: wrap;
+    font-weight: 200;
+    padding: 5px;
+    text-align: left;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.seo p {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    margin-right: 20px;
+    width: fit-content;
+    font-size: 14px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.orm h2 {
+    width: 230px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    margin-right: 20px;
+    font-size: 36px;
+    flex-wrap: wrap;
+    font-weight: 200;
+    padding: 10px;
+    text-align: left;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.orm p {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    margin-right: 10px;
+    width: fit-content;
+    font-size: 14px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.smm h2 {
+    width: 380px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 36px;
+    flex-wrap: wrap;
+    font-weight: 200;
+    padding: 5px;
+    text-align: left;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.smm p {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    margin-right: 20px;
+    width: 580px;
+    font-size: 14px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.benefits {
+    margin-right: 20px;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: inherit;
+    height: fit-content;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: #d89e00;
+    float: inline-end;
+    position: absolute;
+    display: inline;
+}
+
+.benefit-lead {
+    margin-bottom: 20px;
+    color: #ffffff;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 100;
+}
+
+.benefit-brand {
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.benefit-cost {
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.benefit-lead h3 {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.benefit-lead p {
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 0;
+    text-align: center;
+    font-size: 14px;
+}
+
+.benefit-brand h3 {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.benefit-brand p {
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 0;
+    text-align: center;
+    font-size: 14px;
+}
+
+.benefit-cost h3 {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.benefit-cost p {
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 0;
+    text-align: center;
+    font-size: 14px;
+}
+
+.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 55px;
+}
+
+.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 55px;
+}
+
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 55px;
+}
